@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HANAKOTOBA/static/css/main.ffbe06c9.css",
+    "main.css": "/HANAKOTOBA/static/css/main.ab887f56.css",
     "main.js": "/HANAKOTOBA/static/js/main.3c6bb523.js",
     "static/media/deptos (2).svg": "/HANAKOTOBA/static/media/deptos (2).5a395db04f5da468eff24acd54ac6628.svg",
     "static/media/deptos (4).svg": "/HANAKOTOBA/static/media/deptos (4).c27cba0c7d3731af71d901547433a770.svg",
@@ -9,11 +9,11 @@
     "static/media/depto1.jpg": "/HANAKOTOBA/static/media/depto1.7e5bd1f5c3d81f999cd2.jpg",
     "static/media/depto1.webp": "/HANAKOTOBA/static/media/depto1.0a9d57eb5048a3a63cda.webp",
     "index.html": "/HANAKOTOBA/index.html",
-    "main.ffbe06c9.css.map": "/HANAKOTOBA/static/css/main.ffbe06c9.css.map",
+    "main.ab887f56.css.map": "/HANAKOTOBA/static/css/main.ab887f56.css.map",
     "main.3c6bb523.js.map": "/HANAKOTOBA/static/js/main.3c6bb523.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffbe06c9.css",
+    "static/css/main.ab887f56.css",
     "static/js/main.3c6bb523.js"
   ]
 }
