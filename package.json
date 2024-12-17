@@ -2,7 +2,7 @@
 	"name": "hanakotoba",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://juanmatoniolo.github.io/HANAKOTOBA/",
+	"homepage": "https://juanmatoniolo.github.io/HANAKOTOBA",
 	"dependencies": {
 		"bootstrap": "^5.3.3",
 		"cra-template": "1.2.0",
