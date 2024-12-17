@@ -1,0 +1,123 @@
+/* Base styles */
+.container-nav {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #545454;
+    background-color: #eae1d2;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Default to vertical layout */
+    align-items: center;
+}
+
+
+/* Para pantallas de hasta 768px  */
+@media (max-width: 768px) {
+
+    .container-img-caja {
+        width: 50%;
+        margin-left: 1em;
+    }
+
+    .container-img {
+        width: 50%;
+        object-fit: contain;
+    }
+
+    .container-list {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin-left: 1em;
+
+    }
+}
+
+
+
+
+
+/* For screens larger than 768px */
+@media (min-width: 769px) {
+    .container-nav {
+        flex-direction: row;
+        justify-content: end;
+
+    }
+
+
+    .container-img-caja {
+        width: 30%;
+    }
+
+    .container-img {
+        width: 70%;
+        object-fit: contain;
+    }
+
+    .container-list {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    .container-nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .container-img-caja {
+        width: 30%;
+    }
+
+    .container-img {
+        width: 70%;
+        object-fit: contain;
+        margin-left: 1em;
+
+    }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 2048px) {
+
+    .container-nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: end;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .container-img-caja {
+        width: 30%;
+    }
+
+    .container-img {
+        width: 40%;
+        object-fit: contain;
+        margin-left: 1em;
+
+
+    }
+
+
+}
