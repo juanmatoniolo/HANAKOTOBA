@@ -7,6 +7,18 @@ import depto4 from "../../img/deptos/deptos (2).svg";
 import depto3 from "../../img/deptos/deptos (4).svg";
 
 function Section2() {
+
+	const reservarYa = () => {
+		const mensaje =
+			"Hola! Quisiera consultar disponibilidad en Hanakotoba ";
+		const numero = "+5493456445945";
+		const url = `https://wa.me/${numero}?text=${encodeURIComponent(
+			mensaje
+		)}`;
+		window.open(url, "_blank");
+	};
+
+
 	return (
 		<>
 			<div className="container-section2">
@@ -110,7 +122,7 @@ function Section2() {
 								perfecto para desconectar del estrés diario.
 							</li>
 						</ul>
-						<button>Ver unidades</button>
+						<button className="btn-unidades"  onClick={reservarYa} >Ver unidades</button>
 					</div>
 				</div>
 			</div>
