@@ -18,9 +18,11 @@
 
 
 }
-.container-texto-2{
+
+.container-texto-2 {
 
     text-align: justify;
+    padding-right: 1em;
 }
 
 .texto-h22 {
@@ -50,6 +52,7 @@
     flex-flow: row nowrap;
     gap: 1em;
     height: 100%;
+    padding-bottom: 1em;
 
 }
 
@@ -223,7 +226,7 @@
         object-fit: cover;
     }
 
-    .container-texto-2{
+    .container-texto-2 {
         font-size: larger;
         text-align: justify;
     }
@@ -262,7 +265,7 @@
         object-fit: cover;
     }
 
-    .container-texto-2{
+    .container-texto-2 {
         font-size: larger;
         text-align: justify;
     }
