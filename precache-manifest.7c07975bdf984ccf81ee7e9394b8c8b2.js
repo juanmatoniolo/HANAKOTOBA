@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c25d809cffd69601f0eec752639ed41",
+    "revision": "c69cd31f94a91fc70401a16cba8fc87a",
     "url": "/HANAKOTOBA/index.html"
   },
   {
-    "revision": "7c202b9c4326fa5b61dd",
+    "revision": "603056da598480a7654e",
     "url": "/HANAKOTOBA/static/css/2.dbb74888.chunk.css"
   },
   {
-    "revision": "d5f2286b90e4b99b11fc",
-    "url": "/HANAKOTOBA/static/css/main.0e6628fc.chunk.css"
+    "revision": "6575b19345771178dc55",
+    "url": "/HANAKOTOBA/static/css/main.33f69388.chunk.css"
   },
   {
-    "revision": "7c202b9c4326fa5b61dd",
-    "url": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js"
+    "revision": "603056da598480a7654e",
+    "url": "/HANAKOTOBA/static/js/2.a60c15b5.chunk.js"
   },
   {
     "revision": "c55aa429fd5f02e8475caf7576190737",
-    "url": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js.LICENSE.txt"
+    "url": "/HANAKOTOBA/static/js/2.a60c15b5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5f2286b90e4b99b11fc",
-    "url": "/HANAKOTOBA/static/js/main.22334916.chunk.js"
+    "revision": "6575b19345771178dc55",
+    "url": "/HANAKOTOBA/static/js/main.4fb714c8.chunk.js"
   },
   {
     "revision": "e42cd4f41b5e2f285b92",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4cd03d6979d65ce2e8e9aabd8dad9c66",
     "url": "/HANAKOTOBA/static/media/deptos (4).4cd03d69.svg"
+  },
+  {
+    "revision": "cb3b2ba48e01dfc20431714cc6584e8e",
+    "url": "/HANAKOTOBA/static/media/google-maps.cb3b2ba4.png"
   },
   {
     "revision": "c2249cff93a93849866eb6005273f24f",
