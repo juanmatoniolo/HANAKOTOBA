@@ -18,7 +18,7 @@
 .duplex {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 1em;
 }
 
@@ -48,83 +48,78 @@
     padding: .5em;
 }
 
-
-
-
 .contenedor-btn {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
+    height: 4em;
+    align-items: flex-end;
+
 
 }
 
 .btn-unidades {
     width: 80%;
     font-size: 1.1em;
-    
+
 }
 
+@media (min-width: 150px) and (max-width: 480px) {
 
-@media (min-width: 481) and (max-width: 700px){
 
     .duplexs {
-        width: 80%;
-        
+        width: 100% !important;
+        height: auto !important;
         display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 2em;
     }
-    
-    .tamanio-img {
+
+    .contenedor-img {
         width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .tamanio-img {
+        width: 95% !important;
         height: 16em;
-        object-fit: cover;
-        border-radius: 12px;
-        -webkit-border-radius: 12px;
-        -moz-border-radius: 12px;
-        -ms-border-radius: 12px;
-        -o-border-radius: 12px;
+        object-fit: cover !important;
+        border-radius: 12px 0px 12px 0px !important;
+        -webkit-border-radius: 12px 0px 12px 0px !important;
+        -moz-border-radius: 12px 0px 12px 0px !important;
+        -ms-border-radius: 12px 0px 12px 0px !important;
+        -o-border-radius: 12px 0px 12px 0px !important;
     }
 
 
 
     .contenedor-texto {
         text-align: start;
-        height: 13em;
+        height: 16em;
         padding: .5em;
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1.5em;
+        justify-content: space-around;
     }
-    .contenedor-texto  p {
-        height: 0% ;
-    }
+
+
+
     .contenedor-btn {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 2em;
         align-items: flex-end;
-    
+        
+
     }
-    
+}
+
+@media (min-width: 481) and (max-width: 700px) {
 
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .duplexs{
-        width: 100%;
-    }
-
-
-
-}
-
-
-@media (min-width: 150px) and (max-width: 480px){
-
-
-
-
-
-
-    
-}

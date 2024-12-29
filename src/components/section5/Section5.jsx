@@ -51,34 +51,34 @@ function Section5() {
     
 
     return (
-        <div className="container-cards">
+        <div className="container-cards-5">
             {/* Título */}
-            <div className="titulo">
+       <div className="titulo">
                 <h3 className="titulo-h3-s4" >Nuestros departamentos:</h3>
-            </div>
+            </div> 
 
             {/* Contenedor de los dúplex */}
-            <div className="duplex">
+            <div className="duplex-5">
                 {duplexData.map((duplex, index) => (
-                    <div className={`duplex${index + 1} duplexs`} key={index}>
+                    <div className={`duplex${index + 1} duplexs-55`} key={index}>
 
-                        <div className="contenedor-img">
+                        <div className="contenedor-img-5">
                             <img
                                 src={duplex.imageSrc}
-                                className="tamanio-img"
+                                className="tamanio-img-5"
                                 alt={duplex.title}
                             />
                         </div>
 
                         {/* Texto */}
-                        <div className="contenedor-texto">
+                        <div className="contenedor-texto-5 ">
                             <h4>{duplex.title}</h4>
                             <p>{duplex.description}</p>
 
                             {/* Botón */}
-                            <div className="contenedor-btn">
+                            <div className="contenedor-btn-5">
                                 <button
-                                    className="btn-unidades"
+                                    className="btn-unidades-5"
                                     onClick={() => reservarYa(duplex.title)} // Pasar el título como parámetro
                                 >
                                 Consular disponibilidad
