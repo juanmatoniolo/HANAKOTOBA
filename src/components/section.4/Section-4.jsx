@@ -46,7 +46,7 @@ function Section4() {
 	};
 
 	return (
-		<div className="container-cards">
+		<div id="duplex" className="container-cards">
 			{/* Título */}
 			<div className="titulo">
 				<h3 className="titulo-h3-s4">Nuestros dúplex:</h3>

@@ -7,7 +7,7 @@ import c from "../../img/img-fondo-gris.png";
 function Section3() {
 	return (
 		<>
-			<div className="contenedor">
+			<div className="contenedor" >
 				<div className=" container-3">
 					<div className="img1">
 						<img src={b} className="img1-img" alt="" />

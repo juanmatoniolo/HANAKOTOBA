@@ -7,89 +7,91 @@ import c from "../../img/img-fondo-gris.png";
 
 // Datos de los dúplex
 const duplexData = [
-    {
-        title: "Lavanda",
-        description:
-            "Promueve la calma y la relajación. Capacidad 2 personas.",
-        imageSrc: a,
-    },
-    {
-        title: "Magnolia",
-        description:
-            "Representa la dignidad y la pureza. Capacidad 2 personas.",
-        imageSrc: b,
-    },
-    {
-        title: "Lirio",
-        description:
-            "Simboliza la pureza y la elegancia. Capacidad 2 personas.",
-        imageSrc: c,
-    },
-    {
-        title: "Flor de Loto",
-        description:
-            "  Representa la pureza, la iluminación y la resurrección. Capacidad 2 personas.",
-        imageSrc: a,
-    }
+	{
+		title: "Lavanda",
+		description: "Promueve la calma y la relajación. Capacidad 2 personas.",
+		imageSrc: a,
+	},
+	{
+		title: "Magnolia",
+		description:
+			"Representa la dignidad y la pureza. Capacidad 2 personas.",
+		imageSrc: b,
+	},
+	{
+		title: "Lirio",
+		description:
+			"Simboliza la pureza y la elegancia. Capacidad 2 personas.",
+		imageSrc: c,
+	},
+	{
+		title: "Flor de Loto",
+		description:
+			"  Representa la pureza, la iluminación y la resurrección. Capacidad 2 personas.",
+		imageSrc: a,
+	},
 ];
 
 function Section5() {
-    // Función para enviar el mensaje de WhatsApp
-    const reservarYa = (duplexTitle) => {
-        // Mensaje dinámico con el título del dúplex
-        const mensaje = `Hola! Quisiera consultar disponibilidad en Hanakotoba para la unidad ${duplexTitle}.`;
-    
-        // Número de contacto (código internacional incluido)
-        const numero = "+5493456445945";
-    
-        // Construcción de la URL de WhatsApp
-        const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-    
-        // Abrir el enlace en una nueva pestaña
-        window.open(url, "_blank");
-    };
-    
+	// Función para enviar el mensaje de WhatsApp
+	const reservarYa = (duplexTitle) => {
+		// Mensaje dinámico con el título del dúplex
+		const mensaje = `Hola! Quisiera consultar disponibilidad en Hanakotoba para la unidad ${duplexTitle}.`;
 
-    return (
-        <div className="container-cards-5">
-            {/* Título */}
-       <div className="titulo">
-                <h3 className="titulo-h3-s4" >Nuestros departamentos:</h3>
-            </div> 
+		// Número de contacto (código internacional incluido)
+		const numero = "+5493456445945";
 
-            {/* Contenedor de los dúplex */}
-            <div className="duplex-5">
-                {duplexData.map((duplex, index) => (
-                    <div className={`duplex${index + 1} duplexs-55`} key={index}>
+		// Construcción de la URL de WhatsApp
+		const url = `https://wa.me/${numero}?text=${encodeURIComponent(
+			mensaje
+		)}`;
 
-                        <div className="contenedor-img-5">
-                            <img
-                                src={duplex.imageSrc}
-                                className="tamanio-img-5"
-                                alt={duplex.title}
-                            />
-                        </div>
+		// Abrir el enlace en una nueva pestaña
+		window.open(url, "_blank");
+	};
 
-                        {/* Texto */}
-                        <div className="contenedor-texto-5 ">
-                            <h4>{duplex.title}</h4>
-                            <p>{duplex.description}</p>
+	return (
+		<div className="container-cards-5" id="departamentos">
+			{/* Título */}
+			<div className="titulo">
+				<h3 className="titulo-h3-s4">Nuestros departamentos:</h3>
+			</div>
 
-                            {/* Botón */}
-                            <div className="contenedor-btn-5">
-                                <button
-                                    className="btn-unidades-5"
-                                    onClick={() => reservarYa(duplex.title)} // Pasar el título como parámetro
-                                >
-                                Consular disponibilidad
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                ))}
-            </div>
-        </div>
-    );
+			{/* Contenedor de los dúplex */}
+			<div className="duplex-5">
+				{duplexData.map((duplex, index) => (
+					<div
+						className={`duplex${index + 1} duplexs-55`}
+						key={index}
+					>
+						<div className="contenedor-img-5">
+							<img
+								src={duplex.imageSrc}
+								className="tamanio-img-5"
+								alt={duplex.title}
+							/>
+						</div>
+
+						{/* Texto */}
+						<div className="contenedor-texto-5 ">
+							<h4>{duplex.title}</h4>
+							<p>{duplex.description}</p>
+
+							{/* Botón */}
+							<div className="contenedor-btn-5">
+								<button
+									className="btn-unidades-5"
+									onClick={() => reservarYa(duplex.title)} // Pasar el título como parámetro
+								>
+									Consular disponibilidad
+								</button>
+							</div>
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
+	);
 }
 
 export default Section5;

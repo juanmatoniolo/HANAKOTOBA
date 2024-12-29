@@ -22,12 +22,12 @@ function Navi() {
 					id="basic-navbar-nav"
 					className={showMenu ? "show" : ""}
 				>
-					<Nav className="me-auto container-list">
+					<Nav className="me-auto container-list" id="home">
 						<Nav.Link href="#home">Home</Nav.Link>
-						<Nav.Link href="#link">Comodidades</Nav.Link>
-						<Nav.Link href="#link">Duplex</Nav.Link>
-						<Nav.Link href="#link">Departamentos</Nav.Link>
-						<Nav.Link href="#link">Contacto</Nav.Link>
+						<Nav.Link href="#comodidades">Comodidades</Nav.Link>
+						<Nav.Link href="#duplex">Duplex</Nav.Link>
+						<Nav.Link href="#departamentos">Departamentos</Nav.Link>
+						<Nav.Link href="#contacto">Contacto</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

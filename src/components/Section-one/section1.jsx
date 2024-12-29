@@ -15,7 +15,7 @@ function section1() {
 
 	return (
 		<>
-			<div className="container-section1">
+			<div className="container-section1" id="comodidades">
 				<div className="caontainer1">
 					<h1>Hanakotoba: Tu oasis floral en Termas Chajarí</h1>
 					<p>

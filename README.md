@@ -7,3 +7,5 @@
 @media (min-width: 769px) and (max-width: 1024px) {
 
 }
+//antes del run deploy
+set NODE_OPTIONS=--openssl-legacy-provider
