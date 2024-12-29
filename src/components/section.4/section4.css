@@ -1,0 +1,130 @@
+.container-cards {
+    background-color: #EAE1D2;
+
+}
+
+.titulo {
+    padding-top: .5em;
+}
+
+.titulo-h3-s4 {
+    font-size: 2em;
+    margin-left: 1em;
+    font-weight: 800;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.duplex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.duplexs {
+    width: 30%;
+}
+
+.tamanio-img {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.contenedor-texto h4 {
+    font-weight: 700;
+    margin-top: .5em;
+
+}
+
+.contenedor-texto p {
+    text-align: start;
+    padding: .5em;
+}
+
+
+
+
+.contenedor-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+
+}
+
+.btn-unidades {
+    width: 80%;
+    font-size: 1.1em;
+    
+}
+
+
+@media (min-width: 481) and (max-width: 700px){
+
+    .duplexs {
+        width: 80%;
+        
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    
+    .tamanio-img {
+        width: 100%;
+        height: 16em;
+        object-fit: cover;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+
+
+
+    .contenedor-texto {
+        text-align: start;
+        height: 13em;
+        padding: .5em;
+    }
+    .contenedor-texto  p {
+        height: 0% ;
+    }
+    .contenedor-btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2em;
+        align-items: flex-end;
+    
+    }
+    
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .duplexs{
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (min-width: 150px) and (max-width: 480px){
+
+
+
+
+
+
+    
+}

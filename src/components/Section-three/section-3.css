@@ -6,7 +6,10 @@
     background-color: #EAE1D2;
     gap: 1%;
     justify-content: space-evenly;
+    
 }
+
+
 
 .container-3>div {
     width: 30%;
@@ -35,7 +38,11 @@
 .texto-h2-3 {
     font-size: 4em;
     padding-top: 1em;
+    margin-bottom: 2em;
 }
+
+
+
 
 .img3 {
     background-color: #545454;
@@ -120,6 +127,7 @@ background-color: #EAE1D2;
 @media (min-width: 769px) and (max-width: 3000px) {
     .texto-h2-4{
         display: none;
+        background-color: #EAE1D2;
         
         }
 }

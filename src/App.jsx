@@ -11,13 +11,20 @@ import Nav from "./components/nav/Nav";
 import Section1 from "./components/Section-one/section1";
 import Section2 from "./components/Section-two/Section-two";
 import Hanakotoba from "./components/Section-three/Section-3";
+import Section4 from "./components/section.4/Section-4";
+import Section5 from "./components/section5/Section5";
+
 const App = () => {
 	return (
-		<>
+		< >
+		<main className="main-hanakotoba">
 			<Nav />
 			<Section1 />
 			<Section2 />
 			<Hanakotoba/>
+			<Section4/>
+			<Section5/>
+		</main>
 		</>
 	);
 };
