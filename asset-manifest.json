@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/HANAKOTOBA/static/css/main.ce05523f.chunk.css",
-    "main.js": "/HANAKOTOBA/static/js/main.dd6167c0.chunk.js",
-    "main.js.map": "/HANAKOTOBA/static/js/main.dd6167c0.chunk.js.map",
-    "runtime~main.js": "/HANAKOTOBA/static/js/runtime~main.301c2902.js",
-    "runtime~main.js.map": "/HANAKOTOBA/static/js/runtime~main.301c2902.js.map",
+    "main.css": "/HANAKOTOBA/static/css/main.0e6628fc.chunk.css",
+    "main.js": "/HANAKOTOBA/static/js/main.22334916.chunk.js",
+    "main.js.map": "/HANAKOTOBA/static/js/main.22334916.chunk.js.map",
+    "runtime-main.js": "/HANAKOTOBA/static/js/runtime-main.cd2f7169.js",
+    "runtime-main.js.map": "/HANAKOTOBA/static/js/runtime-main.cd2f7169.js.map",
     "static/css/2.dbb74888.chunk.css": "/HANAKOTOBA/static/css/2.dbb74888.chunk.css",
-    "static/js/2.940603a3.chunk.js": "/HANAKOTOBA/static/js/2.940603a3.chunk.js",
-    "static/js/2.940603a3.chunk.js.map": "/HANAKOTOBA/static/js/2.940603a3.chunk.js.map",
+    "static/js/2.c1b5898b.chunk.js": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js",
+    "static/js/2.c1b5898b.chunk.js.map": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js.map",
     "index.html": "/HANAKOTOBA/index.html",
-    "precache-manifest.70927307426031b9adb4dd15794c2335.js": "/HANAKOTOBA/precache-manifest.70927307426031b9adb4dd15794c2335.js",
+    "precache-manifest.07e3d186d9df72dfe8dac331f3f83ff5.js": "/HANAKOTOBA/precache-manifest.07e3d186d9df72dfe8dac331f3f83ff5.js",
     "service-worker.js": "/HANAKOTOBA/service-worker.js",
     "static/css/2.dbb74888.chunk.css.map": "/HANAKOTOBA/static/css/2.dbb74888.chunk.css.map",
-    "static/css/main.ce05523f.chunk.css.map": "/HANAKOTOBA/static/css/main.ce05523f.chunk.css.map",
+    "static/css/main.0e6628fc.chunk.css.map": "/HANAKOTOBA/static/css/main.0e6628fc.chunk.css.map",
+    "static/js/2.c1b5898b.chunk.js.LICENSE.txt": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js.LICENSE.txt",
     "static/media/depto1.webp": "/HANAKOTOBA/static/media/depto1.49451be2.webp",
     "static/media/depto1.jpg": "/HANAKOTOBA/static/media/depto1.f177217a.jpg",
     "static/media/deptos (2).svg": "/HANAKOTOBA/static/media/deptos (2).96225498.svg",
@@ -20,5 +21,12 @@
     "static/media/deptos (4).svg": "/HANAKOTOBA/static/media/deptos (4).4cd03d69.svg",
     "static/media/hanakotoba.svg.svg": "/HANAKOTOBA/static/media/hanakotoba.svg.c2249cff.svg",
     "static/media/img-fondo-gris.png": "/HANAKOTOBA/static/media/img-fondo-gris.91708c8c.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd2f7169.js",
+    "static/css/2.dbb74888.chunk.css",
+    "static/js/2.c1b5898b.chunk.js",
+    "static/css/main.0e6628fc.chunk.css",
+    "static/js/main.22334916.chunk.js"
+  ]
 }

@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60cc4b31335d4e44cd7812e0ba60eb16",
+    "revision": "4c25d809cffd69601f0eec752639ed41",
     "url": "/HANAKOTOBA/index.html"
   },
   {
-    "revision": "16676a6798930b005ecf",
+    "revision": "7c202b9c4326fa5b61dd",
     "url": "/HANAKOTOBA/static/css/2.dbb74888.chunk.css"
   },
   {
-    "revision": "4e873d3b42294b423236",
-    "url": "/HANAKOTOBA/static/css/main.ce05523f.chunk.css"
+    "revision": "d5f2286b90e4b99b11fc",
+    "url": "/HANAKOTOBA/static/css/main.0e6628fc.chunk.css"
   },
   {
-    "revision": "16676a6798930b005ecf",
-    "url": "/HANAKOTOBA/static/js/2.940603a3.chunk.js"
+    "revision": "7c202b9c4326fa5b61dd",
+    "url": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js"
   },
   {
-    "revision": "4e873d3b42294b423236",
-    "url": "/HANAKOTOBA/static/js/main.dd6167c0.chunk.js"
+    "revision": "c55aa429fd5f02e8475caf7576190737",
+    "url": "/HANAKOTOBA/static/js/2.c1b5898b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "baaa3e4164f1b88a89ef",
-    "url": "/HANAKOTOBA/static/js/runtime~main.301c2902.js"
+    "revision": "d5f2286b90e4b99b11fc",
+    "url": "/HANAKOTOBA/static/js/main.22334916.chunk.js"
+  },
+  {
+    "revision": "e42cd4f41b5e2f285b92",
+    "url": "/HANAKOTOBA/static/js/runtime-main.cd2f7169.js"
   },
   {
     "revision": "49451be2bf7fa1f45a45e707efaeae7d",
