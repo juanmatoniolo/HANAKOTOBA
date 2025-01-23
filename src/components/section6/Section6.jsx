@@ -68,7 +68,7 @@ function Section6() {
 
 	return (
 		<>
-			<h2 className="como-llegar container">Como llegar:</h2>
+			<h2 className="como-llegar ">Como llegar:</h2>
 			<div className="container container-google">
 				<img
 					src={a}
